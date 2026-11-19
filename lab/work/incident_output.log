@@ -1,0 +1,190 @@
+[1,4]<stdout>:rank 4: pid 9621 on node2
+[1,3]<stdout>:rank 3: pid 9646 on node1
+[1,1]<stdout>:rank 1: pid 9814 on node0
+[1,5]<stdout>:rank 5: pid 9622 on node2
+[1,2]<stdout>:rank 2: pid 9645 on node1
+[1,0]<stdout>:rank 0: pid 9813 on node0
+[1,1]<stdout>:rank 1 round 1: entering Bcast
+[1,2]<stdout>:rank 2 round 1: entering Bcast
+[1,3]<stdout>:rank 3 round 1: entering Bcast
+[1,4]<stdout>:rank 4 round 1: entering Bcast
+[1,0]<stdout>:rank 0 round 1: entering Bcast
+[1,5]<stdout>:rank 5 round 1: entering Bcast
+[1,0]<stdout>:rank 0 round 1: entering Reduce
+[1,2]<stdout>:rank 2 round 1: entering Reduce
+[1,4]<stdout>:rank 4 round 1: entering Reduce
+[1,4]<stdout>:rank 4 round 1: done
+[1,4]<stdout>:rank 4 round 2: entering Bcast
+[1,2]<stdout>:rank 2 round 1: done
+[1,2]<stdout>:rank 2 round 2: entering Bcast
+[1,1]<stdout>:rank 1 round 1: entering Reduce
+[1,1]<stdout>:rank 1 round 1: done
+[1,1]<stdout>:rank 1 round 2: entering Bcast
+[1,3]<stdout>:rank 3 round 1: entering Reduce
+[1,5]<stdout>:rank 5 round 1: entering Reduce
+[1,5]<stdout>:rank 5 round 1: done
+[1,5]<stdout>:rank 5 round 2: entering Bcast
+[1,0]<stdout>:round 1: selected=[1, 2, 3, 4, 5] test acc=0.556 loss=1.5403
+[1,3]<stdout>:rank 3 round 1: done
+[1,3]<stdout>:rank 3 round 2: entering Bcast
+[1,0]<stdout>:rank 0 round 1: done
+[1,0]<stdout>:rank 0 round 2: entering Bcast
+[1,0]<stdout>:rank 0 round 2: entering Reduce
+[1,1]<stdout>:rank 1 round 2: entering Reduce
+[1,1]<stdout>:rank 1 round 2: done
+[1,1]<stdout>:rank 1 round 3: entering Bcast
+[1,3]<stdout>:rank 3 round 2: entering Reduce
+[1,5]<stdout>:rank 5 round 2: entering Reduce
+[1,3]<stdout>:rank 3 round 2: done
+[1,3]<stdout>:rank 3 round 3: entering Bcast
+[1,5]<stdout>:rank 5 round 2: done
+[1,5]<stdout>:rank 5 round 3: entering Bcast
+[1,4]<stdout>:rank 4 round 2: entering Reduce
+[1,4]<stdout>:rank 4 round 2: done
+[1,4]<stdout>:rank 4 round 3: entering Bcast
+[1,2]<stdout>:rank 2 round 2: entering Reduce
+[1,2]<stdout>:rank 2 round 2: done
+[1,2]<stdout>:rank 2 round 3: entering Bcast
+[1,0]<stdout>:round 2: selected=[1, 2, 3, 4, 5] test acc=0.597 loss=1.2275
+[1,0]<stdout>:rank 0 round 2: done
+[1,0]<stdout>:rank 0 round 3: entering Bcast
+[1,0]<stdout>:rank 0 round 3: entering Reduce
+[1,1]<stdout>:rank 1 round 3: entering Reduce
+[1,3]<stdout>:rank 3 round 3: entering Reduce
+[1,3]<stdout>:rank 3 round 3: done
+[1,3]<stdout>:rank 3 round 4: entering Bcast
+[1,2]<stdout>:rank 2 round 3: entering Reduce
+[1,1]<stdout>:rank 1 round 3: done
+[1,1]<stdout>:rank 1 round 4: entering Bcast
+[1,5]<stdout>:rank 5 round 3: entering Reduce
+[1,5]<stdout>:rank 5 round 3: done
+[1,5]<stdout>:rank 5 round 4: entering Bcast
+[1,4]<stdout>:rank 4 round 3: entering Reduce
+[1,2]<stdout>:rank 2 round 3: done
+[1,2]<stdout>:rank 2 round 4: entering Bcast
+[1,4]<stdout>:rank 4 round 3: done
+[1,4]<stdout>:rank 4 round 4: entering Bcast
+[1,0]<stdout>:round 3: selected=[1, 2, 3, 4, 5] test acc=0.640 loss=0.9863
+[1,0]<stdout>:rank 0 round 3: done
+[1,0]<stdout>:rank 0 round 4: entering Bcast
+[1,0]<stdout>:rank 0 round 4: entering Reduce
+[1,1]<stdout>:rank 1 round 4: entering Reduce
+[1,1]<stdout>:rank 1 round 4: done
+[1,1]<stdout>:rank 1 round 5: entering Bcast
+[1,3]<stdout>:rank 3 round 4: entering Reduce
+[1,3]<stdout>:rank 3 round 4: done
+[1,3]<stdout>:rank 3 round 6: entering Bcast
+[1,2]<stdout>:rank 2 round 4: entering Reduce
+[1,5]<stdout>:rank 5 round 4: entering Reduce
+[1,5]<stdout>:rank 5 round 4: done
+[1,5]<stdout>:rank 5 round 5: entering Bcast
+[1,2]<stdout>:rank 2 round 4: done
+[1,2]<stdout>:rank 2 round 5: entering Bcast
+[1,4]<stdout>:rank 4 round 4: entering Reduce
+[1,4]<stdout>:rank 4 round 4: done
+[1,4]<stdout>:rank 4 round 5: entering Bcast
+[1,0]<stdout>:round 4: selected=[1, 2, 3, 4, 5] test acc=0.689 loss=0.8050
+[1,0]<stdout>:rank 0 round 4: done
+[1,0]<stdout>:rank 0 round 5: entering Bcast
+[1,0]<stdout>:rank 0 round 5: entering Reduce
+[1,4]<stdout>:rank 4 round 5: entering Reduce
+[1,4]<stdout>:rank 4 round 5: done
+[1,4]<stdout>:rank 4 round 6: entering Bcast
+[1,2]<stdout>:rank 2 round 5: entering Reduce
+[1,3]<stdout>:rank 3 round 6: entering Reduce
+[1,3]<stdout>:rank 3 round 6: done
+[1,3]<stdout>:rank 3 round 7: entering Bcast
+[1,2]<stdout>:rank 2 round 5: done
+[1,2]<stdout>:rank 2 round 6: entering Bcast
+[1,5]<stdout>:rank 5 round 5: entering Reduce
+[1,5]<stdout>:rank 5 round 5: done
+[1,5]<stdout>:rank 5 round 6: entering Bcast
+[1,1]<stdout>:rank 1 round 5: entering Reduce
+[1,1]<stdout>:rank 1 round 5: done
+[1,1]<stdout>:rank 1 round 6: entering Bcast
+[1,0]<stdout>:round 5: selected=[1, 2, 4, 5] test acc=0.731 loss=0.6709
+[1,0]<stdout>:rank 0 round 5: done
+[1,0]<stdout>:rank 0 round 6: entering Bcast
+[1,0]<stdout>:rank 0 round 6: entering Reduce
+[1,1]<stdout>:rank 1 round 6: entering Reduce
+[1,1]<stdout>:rank 1 round 6: done
+[1,1]<stdout>:rank 1 round 7: entering Bcast
+[1,3]<stdout>:rank 3 round 7: entering Reduce
+[1,3]<stdout>:rank 3 round 7: done
+[1,3]<stdout>:rank 3 round 8: entering Bcast
+[1,0]<stdout>:round 6: selected=[1, 2, 3, 4, 5] test acc=0.765 loss=0.5725
+[1,2]<stdout>:rank 2 round 6: entering Reduce
+[1,2]<stdout>:rank 2 round 6: done
+[1,2]<stdout>:rank 2 round 7: entering Bcast
+[1,4]<stdout>:rank 4 round 6: entering Reduce
+[1,4]<stdout>:rank 4 round 6: done
+[1,4]<stdout>:rank 4 round 7: entering Bcast
+[1,5]<stdout>:rank 5 round 6: entering Reduce
+[1,5]<stdout>:rank 5 round 6: done
+[1,5]<stdout>:rank 5 round 7: entering Bcast
+[1,0]<stdout>:rank 0 round 6: done
+[1,0]<stdout>:rank 0 round 7: entering Bcast
+[1,0]<stdout>:rank 0 round 7: entering Reduce
+[1,2]<stdout>:rank 2 round 7: entering Reduce
+[1,1]<stdout>:rank 1 round 7: entering Reduce
+[1,5]<stdout>:rank 5 round 7: entering Reduce
+[1,5]<stdout>:rank 5 round 7: done
+[1,5]<stdout>:rank 5 round 8: entering Bcast
+[1,4]<stdout>:rank 4 round 7: entering Reduce
+[1,4]<stdout>:rank 4 round 7: done
+[1,4]<stdout>:rank 4 round 8: entering Bcast
+[1,2]<stdout>:rank 2 round 7: done
+[1,2]<stdout>:rank 2 round 8: entering Bcast
+[1,3]<stdout>:rank 3 round 8: entering Reduce
+[1,3]<stdout>:rank 3 round 8: done
+[1,3]<stdout>:rank 3 round 9: entering Bcast
+[1,1]<stdout>:rank 1 round 7: done
+[1,1]<stdout>:rank 1 round 8: entering Bcast
+[1,0]<stdout>:round 7: selected=[1, 2, 3, 4, 5] test acc=0.779 loss=0.5009
+[1,0]<stdout>:rank 0 round 7: done
+[1,0]<stdout>:rank 0 round 8: entering Bcast
+[1,0]<stdout>:rank 0 round 8: entering Reduce
+[1,4]<stdout>:rank 4 round 8: entering Reduce
+[1,4]<stdout>:rank 4 round 8: done
+[1,4]<stdout>:rank 4 round 9: entering Bcast
+[1,1]<stdout>:rank 1 round 8: entering Reduce
+[1,1]<stdout>:rank 1 round 8: done
+[1,1]<stdout>:rank 1 round 9: entering Bcast
+[1,3]<stdout>:rank 3 round 9: entering Reduce
+[1,5]<stdout>:rank 5 round 8: entering Reduce
+[1,3]<stdout>:rank 3 round 9: done
+[1,3]<stdout>:rank 3 round 10: entering Bcast
+[1,5]<stdout>:rank 5 round 8: done
+[1,5]<stdout>:rank 5 round 9: entering Bcast
+[1,2]<stdout>:rank 2 round 8: entering Reduce
+[1,0]<stdout>:round 8: selected=[1, 2, 3, 4, 5] test acc=0.806 loss=0.4489
+[1,2]<stdout>:rank 2 round 8: done
+[1,2]<stdout>:rank 2 round 9: entering Bcast
+[1,0]<stdout>:rank 0 round 8: done
+[1,0]<stdout>:rank 0 round 9: entering Bcast
+[1,0]<stdout>:rank 0 round 9: entering Reduce
+[1,1]<stdout>:rank 1 round 9: entering Reduce
+[1,5]<stdout>:rank 5 round 9: entering Reduce
+[1,5]<stdout>:rank 5 round 9: done
+[1,5]<stdout>:rank 5 round 10: entering Bcast
+[1,1]<stdout>:rank 1 round 9: done
+[1,1]<stdout>:rank 1 round 10: entering Bcast
+[1,3]<stdout>:rank 3 round 10: entering Reduce
+[1,3]<stdout>:rank 3 round 10: done
+[1,2]<stdout>:rank 2 round 9: entering Reduce
+[1,4]<stdout>:rank 4 round 9: entering Reduce
+[1,4]<stdout>:rank 4 round 9: done
+[1,4]<stdout>:rank 4 round 10: entering Bcast
+[1,2]<stdout>:rank 2 round 9: done
+[1,2]<stdout>:rank 2 round 10: entering Bcast
+[1,0]<stdout>:round 9: selected=[1, 2, 3, 4, 5] test acc=0.815 loss=0.4111
+[1,0]<stdout>:rank 0 round 9: done
+[1,0]<stdout>:rank 0 round 10: entering Bcast
+[1,0]<stdout>:rank 0 round 10: entering Reduce
+[1,5]<stdout>:rank 5 round 10: entering Reduce
+[1,5]<stdout>:rank 5 round 10: done
+[1,4]<stdout>:rank 4 round 10: entering Reduce
+[1,4]<stdout>:rank 4 round 10: done
+[1,1]<stdout>:rank 1 round 10: entering Reduce
+[1,2]<stdout>:rank 2 round 10: entering Reduce
+[1,2]<stdout>:rank 2 round 10: done

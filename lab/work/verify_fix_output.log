@@ -1,0 +1,48 @@
+=== (a) run with the enabled schedule ===
+round 1: selected=[1, 2, 3, 4, 5] test acc=0.556 loss=1.5403
+round 2: selected=[1, 2, 3, 4, 5] test acc=0.597 loss=1.2275
+round 3: selected=[1, 2, 3, 4, 5] test acc=0.640 loss=0.9863
+round 4: selected=[1, 2, 3, 4, 5] test acc=0.689 loss=0.8050
+round 5: selected=[1, 2, 4, 5] test acc=0.730 loss=0.6722
+round 6: selected=[1, 2, 4, 5] test acc=0.760 loss=0.5741
+round 7: selected=[1, 2, 4, 5] test acc=0.781 loss=0.5025
+round 8: selected=[1, 2, 4, 5] test acc=0.803 loss=0.4503
+round 9: selected=[1, 2, 4, 5] test acc=0.818 loss=0.4124
+round 10: selected=[1, 2, 4, 5] test acc=0.826 loss=0.3846
+(a) OK: the job finished all rounds
+
+=== (b) masked serial oracle vs your run ===
+MPI result    : mpi_sampling_fix.npz  (10 rounds)
+serial oracle : serial_masked.npz  (10 rounds)
+tolerance     : 1e-12
+round       max|dw|
+    1     2.220e-16
+    2     2.220e-16
+    3     4.441e-16
+    4     8.882e-16
+    5     6.661e-16
+    6     6.661e-16
+    7     8.882e-16
+    8     6.661e-16
+    9     5.551e-16
+   10     4.441e-16
+PASS
+
+=== (c) full participation vs the full serial oracle ===
+MPI result    : mpi_sampling_full.npz  (10 rounds)
+serial oracle : serial.npz  (10 rounds)
+tolerance     : 1e-12
+round       max|dw|
+    1     2.220e-16
+    2     2.220e-16
+    3     4.441e-16
+    4     8.882e-16
+    5     6.661e-16
+    6     8.882e-16
+    7     6.661e-16
+    8     6.661e-16
+    9     5.551e-16
+   10     5.551e-16
+PASS
+
+VERIFY: ALL CHECKS PASSED
